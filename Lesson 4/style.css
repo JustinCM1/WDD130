@@ -1,0 +1,58 @@
+body {
+    background-color: #fca6c9;
+}
+
+.coolFont {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 150px;
+}
+
+.pageContent{
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+}
+
+h1:hover{
+    color: black;
+}
+
+.pageContent ol{
+    text-align: left;
+    font-weight: bold;
+}
+
+.pageContent ol li{
+    line-height: 30px;
+}
+
+.white{
+    color: white;
+}
+
+.quotation{
+    margin: 20px 70px;
+    font-size: 35px;
+}
+
+.quotation::before {
+    content:"";
+    margin-right: 5px;
+}
+
+.quotation::after {
+    content: '';
+    margin-left: 5px;
+}
+
+footer{
+    margin: 0 50px;
+}
+
+footer p{
+    font-size: 80%;
+    margin: 3px;
+}
