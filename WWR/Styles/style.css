@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Rock+Salt&display=swap');
+
+h1{
+    font-family: "Rock Salt", Arial, sans-serif;
+}
+
+h2, h3, h4, p, a{
+    font-family: Dosis, Helvetica, sans-serif;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
 content{
     max-width: 1600px;
     margin: 0 auto;
@@ -20,7 +42,6 @@ nav a{
 }
 
 
-
 .button-box{
     text-align:center;
 }
@@ -29,28 +50,37 @@ main section{
     text-align:center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
 }
 
 body{
     background-color:white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header{
     background-color:#80a4ed;
 }
 nav a:hover{
-    background-color:white ;
+    background-color:black ;
 }
-.book, .join{
-    background-color:#517664;
-}
+
 .book:hover{
-    background-color:white;
+    background-color:black;
 }
 .join:hover{
-    background-color:#fffcf9;
+    background-color:black;
 }
 #background{
     background-color:#80a4ed ;
@@ -58,13 +88,19 @@ nav a:hover{
 
 .msg{
     background-color:#517664 ;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color:#517664 ;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -73,6 +109,7 @@ footer{
 
 nav a{
     color:#fffcf9;
+    padding: 35px;
 }    
 nav a:hover{
 
@@ -80,13 +117,21 @@ nav a:hover{
 }    
 .home-title{
     color:black;
+    font-size: 2em;
+    margin-top: 10px;
 }    
 h4{
     color:black;
 }    
 .book, .join{
     color:#fffcf9;
-}    
+    background-color:#d9c2a3;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+   
 .book:hover, .join:hover{
     color:#fffcf9;
 }    
@@ -95,15 +140,18 @@ h4{
 }    
 .msg p{
     color:#fffcf9;
+    padding-bottom: 15px;
 }    
 footer h3{
     color:#fffcf9;
 }    
 footer a{
     color:#fffcf9;
-    text-decoration: underline;
 }    
 footer a:hover{
     color:#fffcf9;
-    text-decoration: underline;
 }    
+
+footer .social img{
+    padding-top: 15px;
+}
