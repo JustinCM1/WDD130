@@ -12,6 +12,10 @@ h2, h3, h4, p, a{
     margin: 200px 0;
 }
 
+.mountains{
+    margin-bottom: 200px;
+}
+
 .card-img {
     border: 10px solid black;
 }
@@ -56,6 +60,8 @@ main section img {
 
 #background{
     height: 725px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 body{
