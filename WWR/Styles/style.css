@@ -120,7 +120,7 @@ main section img {
 #background{
     height: 725px;
     margin-top: 200px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     grid-column: 1/11;
     grid-row: 4/9;
 }
