@@ -281,4 +281,64 @@ footer .social img{
         margin-top: 25px;
     }
 }
-            
+/* The css above is for the main page */
+/* Everything below is for the Rates and Dates subpage */
+
+#banner-img{
+    width: 100%;
+}
+
+.banner-title{
+    color: #d9c2a3;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-top: -420px;
+}
+
+#banner-msg{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#main-title{
+    margin-top: 300px;
+}
+
+.river-pic, .rafting-pic, .rapids-pic{
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#main-title{
+    text-align: center;
+    color: black;
+}
+
+/* .river-pic{
+    margin-right: 520px;
+}
+
+.rafting-pic{
+    margin-left: 320px;
+}
+
+.rapids-pic{
+    margin-right: 520px;
+}
+
+.river-rates{
+    margin-left: 40px;
+} */
+
+.river-pic{
+    margin-top: 10px;
+}
+
+.rafting-pic{
+    margin-top: 20px;
+}
+
+.rapids-pic{
+    margin-top: 20px;
+}
