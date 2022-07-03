@@ -16,7 +16,7 @@ h3, h4, p, a{
 
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #8D8E8E;
     padding: 20px 10px;
   }
   
@@ -59,17 +59,21 @@ h3, h4, p, a{
 .profile{
     width: auto;
     height: auto;
+    margin-top: 10px;
+    
 }
+
 
 #hello_msg{
     background-color:#475B5A;
     color: #BBBBBF;
+    text-align: center;
 }
   
 footer{
-    background-color:#475B5A;
+    background-color:#8D8E8E;
     padding: 25px 50px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
