@@ -59,7 +59,7 @@ h3, h4, p, a{
 .profile{
     width: auto;
     height: auto;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     
 }
 
@@ -69,6 +69,7 @@ h3, h4, p, a{
   max-width: 300px;
   margin: auto;
   text-align: center;
+  background-color: white;
 }
 
 .title {
