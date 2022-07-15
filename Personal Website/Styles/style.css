@@ -130,6 +130,15 @@ footer{
     padding-top: 10px;
 }
 
+.review_page{
+  background-color: #ddd;
+  width: 100%;
+}
+
+.review_text{
+  text-align: center;
+}
+
 /* for art portfolio  */
 * {
   box-sizing: border-box;
